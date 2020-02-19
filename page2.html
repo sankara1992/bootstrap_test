@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Décors</title>
+    <!-- Bootstrap Css en CDN  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+	<style>
+		.rouge {
+			background: red;
+		}
+		.jaune {
+			background: yellow;
+		}
+		.vert {
+			background: green;
+		}
+        .orange {
+            background: orangered;
+
+        }
+        .bleu {
+            background: blue;
+
+        }
+        .gris {
+            background: grey;
+
+        }
+        .violet {
+            background: pink;
+        }
+	
+	
+	</style>
+</head>
+<body>
+    <!-- la navbar  de notre site  -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <!-- la div contenair contient le contenu de la nav et le conteneur n'est pas 'fluid' -->
+        <div class="container">
+            <a class="navbar-brand" href="#">Décors</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nos pages
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="page1.html">pages 1</a>
+                    <a class="dropdown-item" href="page2.html">pages 2</a>
+                    <a class="dropdown-item" href="#">pages 3</a>
+                    <a class="dropdown-item" href="#">pages 4</a>
+                    <a class="dropdown-item" href="#">pages 5</a>
+    
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- fermeture de la div conteneur  -->
+        </div>
+      </nav>
+
+      <!-- container 2  -->
+      <div class="container">
+          <div class="jumbotron">
+              <h1>Page 2 - grille</h1>
+
+          </div>
+      </div>  <!-- fermeture de la div conteneur 2 -->
+
+       <!-- container 3 -->
+       <div class="container">
+        <div class="row">
+           <div class="col-sm-6 col-md-4 orange">1</div>
+           <div class="col-sm-6 col-md-8 bleu">2</div>
+
+        </div>
+    </div>  <!-- fermeture de la div conteneur 3  -->
+
+     <!-- container  4 -->
+     <div class="container">
+        <div class="row">
+           <div class="col-sm-1 gris">1</div>
+           <div class="col-sm-5 bleu">2</div>
+           <div class="col-sm-6 violet">3</div>
+
+        </div>
+    </div>  <!-- fermeture de la div conteneur 4 -->
+
+     <!-- container  5 -->
+     <div class="container">
+        <div class="row">
+           <div class="col-sm-1 gris"><p>1</p></div>
+           <div class="col-sm-2">2 colonnes</div>
+           <div class="col-sm-3">3 colonnes</div>
+           <div class="col-sm-3 bleu">6 colonnes</div>
+
+        </div> <!-- fin row  -->
+        <div class="row">
+            <div class="col-md-12 bleu">12 colonnes</div>   
+        </div>
+        <div class="row">
+            <div class="class col gris">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis excepturi magni fugiat voluptate suscipit quae alias deserunt possimus. At ullam impedit architecto unde est nemo nobis rem modi nihil quam?</p>
+        </div>
+        <div class="col col-auto orange">c'est auto</div>
+        <div class="col">3/ et la ceci cela</div>
+    </div> <!-- fin row  -->
+    <div class="row">
+        <div class="col">Elément</div>
+        <div class="col orange">Elément</div>
+        <div class="col bleu">Elément</div>
+        <div class="col">Elément</div>
+
+    </div> <!-- fin row  -->
+
+    <div class="row">
+        <div class="col-6">Elément</div>
+        <div class="col-6 orange">Elément</div>
+        <div class="col-6 bleu">Elément</div>
+        <div class="col-6">Elément</div>
+
+    </div> <!-- fin row  -->
+    <hr>
+    </div>  <!-- fermeture de la div conteneur 5 -->
+
+    <!-- container  6 -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col"> 
+                <h2 class="bg-primary w-50">éléments w-50</h2>
+            </div>
+            <div class="col">éléments</div>
+            <div class="w-100 orange">éléments w-100</div>
+            <div class="col">éléments</div>
+            <div class="col bleu">éléments</div>
+        </div> <!-- fin row  -->
+    </div> <!-- fermeture de la div conteneur 6 -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3 orange">3 colonnes</div>
+            <div class="col bleu">6 colonnes</div>
+            <div class="col-3 gris">3 colonnes</div>
+
+        </div>
+        <div class="class row">
+            <div class="col-3 violet ">3 colonnes / gauche</div>
+            <div class="col-3 gris al-auto">3 colonnes / droite</div>
+
+        </div>
+    </div>
+
+
+    
+    
+    
+    
+
+
+
+      
+
+
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+    <!-- les scripts en local -->
+    <script src="js/jquery-3.4.1slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- optionnel javascript en CDN  -->
+    <!-- jquery first, them popper.js them Bootstrap JS en CDN  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    
+</body>
+</html>
